@@ -18,18 +18,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Handler().postDelayed({
-            val  intent = Intent(this,Onboarding :: class.java)
-            startActivity(intent)
-            finish()
-
-        },
+        Handler().postDelayed(
+            {
+                val intent = Intent(this, Onboarding::class.java)
+                startActivity(intent)
+            },
             3000
         )
 
     }
 }
-
 
 
 /*
