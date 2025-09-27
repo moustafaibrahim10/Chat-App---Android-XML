@@ -202,7 +202,7 @@
             android:layout_marginLeft="10dp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:id="@+id/logIn"
+            android:id="@+id/logIn_onBoarding"
             />
     </LinearLayout>
 

@@ -13,7 +13,7 @@ class Onboarding : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_onboarding)
-       val btn = findViewById<TextView>(R.id.logIn)
+       val btn = findViewById<TextView>(R.id.logIn_onBoarding)
         val intent = Intent(this, SignIn::class.java)
         btn.setOnClickListener {
             startActivity(intent)
